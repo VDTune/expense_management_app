@@ -42,8 +42,8 @@ class TTexts {
 
 
   // -- Authentication Headings
-  static const String loginTitle = "Chào mừng trở lại,";
-  static const String loginSubTitle = "Khám phá những lựa chọn không giới hạn.";
+  static const String loginTitle = "Đăng Nhập";
+  static const String loginSubTitle = "Khám phá cách quản lý chi tiêu thông minh.";
   static const String signupTitle = "Tạo tài khoản cho riêng bạn";
   static const String forgetPasswordTitle = "Quên mật khẩu";
   static const String forgetPasswordSubTitle = "Đừng quá lo lắng, nhập email của bạn để và chúng tôi sẽ gửi liên kết đặt lại mật khẩu.";
