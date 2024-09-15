@@ -46,7 +46,7 @@ class TLoginForm extends StatelessWidget {
                       value: true,
                       onChanged: (value) {},
                       activeColor: Colors.orange,
-                      checkColor: Colors.white,
+                      checkColor: Colors.black,
                     ),
                     const Text(TTexts.rememberMe),
                   ],
