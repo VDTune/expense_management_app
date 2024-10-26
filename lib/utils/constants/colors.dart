@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
 class TColors {
+  static const Color orange = Color(0xFFFF6A06);
+  static const Color softYellow = Color(0xFFFFF7D1);
+  static const Color lightGray = Color(0xFFEEEEEE);
+  static const Color lightBlue = Color(0xFF00AAFF);
+
   // App theme colors
   static const Color primary = Color(0xFF4b68ff);
   static const Color secondary = Color(0xFFFFE24B);
@@ -41,7 +46,7 @@ class TColors {
   static const Color darkGrey = Color(0xFF939393);
   static const Color grey = Color(0xFFE0E0E0);
   static const Color softGrey = Color(0xFFF4F4F4);
-  static const Color lightGrey = Color(0xFFF9F9F9);
+  static const Color lightGrey = Color(0xFFD9D9D9);
   static const Color white = Color(0xFFFFFFFF);
 
 }
