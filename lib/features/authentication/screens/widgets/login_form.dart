@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:get/get.dart';
 
 import '../../../../utils/constants/sizes.dart';
 import '../../../../utils/constants/text_strings.dart';
@@ -62,7 +63,10 @@ class TLoginForm extends StatelessWidget {
             SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    // Navigate to the NavigationExample screen
+                    Get.toNamed('/navigation');
+                  },
                   child: const Text(TTexts.signIn),
                   style: ButtonStyle(
                     backgroundColor:
